@@ -1,0 +1,88 @@
+.container {
+    width: 700px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.items-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    /* Cambia a 'flex-start' para que los label estén arriba */
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    /* Cambia a 'column' para que los label estén encima */
+    margin-right: 20px;
+    /* Espacio entre elementos */
+}
+
+.form-row label {
+    font-size: 12px;
+    margin-bottom: 5px;
+    /* Espacio entre label y input/select */
+    font-family: 'Open Sans', sans-serif;
+    color: #afabb6;
+}
+
+.form-row input {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #252529;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 16px;
+    background-color: #17171a;
+    color: #fbf9fe;
+    min-width: 150px;
+}
+
+.form-row select {
+    width: 100%;
+    min-width: 200px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #252529;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    height: 40px;
+    background-color: #17171a;
+    color: #fbf9fe;
+}
+
+.add-button {
+    display: inline-block;
+    /* Hacer que el botón se muestre en línea */
+    padding: 10px 20px;
+    margin-top: 20px;
+    /* Ajustar el padding según sea necesario */
+    background-color: #7450ac;
+    /* Color de fondo del botón */
+    color: #fff;
+    /* Color del texto del botón */
+    border: none;
+    /* Eliminar el borde del botón */
+    border-radius: 80%;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    background-color: #a881e6;
+    /* Cambiar el color de fondo al pasar el mouse */
+}

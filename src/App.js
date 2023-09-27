@@ -1,5 +1,5 @@
 import './App.css'
-import Form from './components/Form'
+import Items from './components/Items'
 import Logo from './components/Logo'
 
 function App () {
@@ -7,7 +7,7 @@ function App () {
     <div className='app-table'>
       <div className='background-app' />
       <Logo />
-      <Form />
+      <Items />
     </div>
   )
 }

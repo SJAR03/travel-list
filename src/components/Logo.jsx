@@ -4,7 +4,9 @@ import './Logo.css'
 const Logo = () => {
   return (
     <div className='background'>
-      <h1 className='title'>Lista de viaje</h1>
+      <div className='title-container'>
+        <h1 className='title'>Lista de Viaje</h1>
+      </div>
     </div>
   )
 }
