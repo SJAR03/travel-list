@@ -65,9 +65,7 @@ const Items = () => {
             </select>
           </div>
 
-          <button type='submit' className='add-button'>
-            <span>+</span>
-          </button>
+          <button type='submit' className='add-button'>+</button>
         </form>
 
       </div>
