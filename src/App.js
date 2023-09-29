@@ -20,7 +20,8 @@ import './App.css'
 
 const initialItem = [
   { id: 1, description: 'pants', quantity: 4, isPacked: false },
-  { id: 2, description: 'jacket', quantity: 1, isPacked: true }
+  { id: 2, description: 'jacket', quantity: 1, isPacked: true },
+  { id: 3, description: 'paper', quantity: 16, isPacked: true }
 ]
 
 function App () {
@@ -63,7 +64,7 @@ function PackingList () {
 function Item ({ item }) {
   return (
     <li>
-      <span>
+      <span style={item.isPacked ? { textDecoration: 'line-through' } : {}}>
         {item.quantity} {item.description}
       </span>
       <button>❌</button>

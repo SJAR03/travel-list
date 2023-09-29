@@ -6,7 +6,7 @@ import ItemList from './ItemList'
 const Items = () => {
   const [itemName, setItemName] = useState('')
   const [itemQuantity, setItemQuantity] = useState(1)
-  const [itemCategory, setItemCategory] = useState('comida')
+  const [itemCategory, setItemCategory] = useState('Comida')
   const [itemList, setItemList] = useState([])
 
   const handleNameChange = (event) => {
