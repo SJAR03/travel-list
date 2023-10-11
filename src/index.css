@@ -59,8 +59,7 @@ h3 {
 }
 
 button,
-select,
-input {
+select {
     background-color: #ffebb3;
     color: #5a3e2b;
     font-family: inherit;
@@ -70,6 +69,17 @@ input {
     font-weight: 700;
     font-size: 1.8rem;
     cursor: pointer;
+}
+
+input {
+    background-color: #ffebb3;
+    color: #5a3e2b;
+    font-family: inherit;
+    border: none;
+    border-radius: 10rem;
+    padding: 1.2rem 3.2rem;
+    font-weight: 700;
+    font-size: 1.8rem;
 }
 
 .add-form button {
